@@ -1,0 +1,45 @@
+<app-header></app-header>
+<div class="container">
+    
+    <h1 class="text-center">Add Task</h1>
+    <form>
+        <!--<div class="text-center">-->
+            <div>
+                <label for="title">Task Id:</label>
+                <input type="number" id="title">
+            </div>
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="description">Description:</label>
+                <textarea id="description"></textarea>
+            </div>
+            <div>
+                <label for="due-date">Due Date:</label>
+                <input type="date" id="due-date">
+            </div>
+            <div>
+                <label for="priority">Priority:</label>
+                <select id="priority">
+                    <option>Select below priority</option>
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                </select>
+            </div>
+            <div>
+                <label for="title">Assigning To:</label>
+                <select id="employeeid">
+                    <option>Select employee id</option>
+                    <option>1001</option>
+                    <option>1002</option>
+                </select>
+            </div>
+        <div class="button-container">
+            <button class="btn btn-primary mt-4 m-4">Send</button>
+        </div>
+    </form>      
+</div>  
+
